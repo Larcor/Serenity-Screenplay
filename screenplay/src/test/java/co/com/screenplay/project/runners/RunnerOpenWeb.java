@@ -9,7 +9,7 @@ import org.junit.runner.RunWith;
         features = "src/test/resources/features/openweb.feature",
         glue = "co.com.screenplay.project.stepdefinitions",
         snippets = CucumberOptions.SnippetType.CAMELCASE,
-        tags = "@prueba"
+        tags = "@prueba2"
 )
 
 
