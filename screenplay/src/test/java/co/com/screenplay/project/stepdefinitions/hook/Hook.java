@@ -29,7 +29,7 @@ public class Hook {
         waiting(5);
         theActorInTheSpotlight().should(
                 GivenWhenThen.seeThat(
-                        TheWebPage.title(), Matchers.containsString("Test")
+                        TheWebPage.title(), Matchers.containsString("DEMOQA")
                 )
         );
 
