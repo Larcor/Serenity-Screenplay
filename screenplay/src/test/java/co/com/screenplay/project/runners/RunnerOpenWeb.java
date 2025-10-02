@@ -6,7 +6,7 @@ import org.junit.runner.RunWith;
 
 @RunWith(CucumberWithSerenity.class)
 @CucumberOptions(
-        features = "src/test/resources/features/openweb.feature",
+        features = "src/test/resources/features/calendar.feature",
         glue = "co.com.screenplay.project.stepdefinitions",
         snippets = CucumberOptions.SnippetType.CAMELCASE,
         tags = "@prueba2"
