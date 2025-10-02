@@ -1,7 +1,7 @@
 Feature: Open web page
   Yo como manuel
-  quiero realizar una prueba de abrir una pagina
-  Para comprobar el funcionamineto
+  quiero realizar una prueba sobre el calendario de la pagina
+  Para comprobar el funcionamiento
 
 
 
