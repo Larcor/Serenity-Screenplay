@@ -59,7 +59,7 @@ public class OpenWebStepDefinition {
         var expected = java.time.LocalDate.of(year, month, day);
 
         theActorInTheSpotlight().attemptsTo(
-                Switch.toFrame(DatePickerPage.IFRAME_DATE.resolveFor(theActorInTheSpotlight()))   // si aplica
+                Switch.toFrame(DatePickerPage.IFRAME_DATE.resolveFor(theActorInTheSpotlight()))
         );
 
         theActorInTheSpotlight().should(
@@ -72,7 +72,7 @@ public class OpenWebStepDefinition {
     @When("Ingresa la fecha {int}-{int}-{int} en el campo")
     public void ingresaLaFecha(int y, int m, int d) {
         theActorInTheSpotlight().attemptsTo(
-                TypeDate.with(java.time.LocalDate.of(y, m, d))  // usa MM/dd/yyyy por defecto
+                TypeDate.with(java.time.LocalDate.of(y, m, d))
         );
     }
 

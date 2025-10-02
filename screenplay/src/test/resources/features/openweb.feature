@@ -5,7 +5,7 @@ Feature: Open web page
 
 
 
-  @prueba   #Con este escenario podemos verificar los dos primeros puntos solicitados por medio de la tabla Examples
+  @prueba1 @prueba2   #Con este escenario podemos verificar los dos primeros puntos solicitados por medio de la tabla Examples
 Scenario Outline: Reservar cita con el calendario
    Given "<actor>" abre el navegador
    When Selecciona la fecha <year>-<month>-<day>
@@ -18,7 +18,7 @@ Scenario Outline: Reservar cita con el calendario
       | Manuel | 2026 | 02    | 05  |
 
 
-  @prueba2
+  @prueba3 #Se realiza el ingreso "manual" de la fecha y se deja modificar, por lo que se hace la validacion asumiendo que es la forma correcta
   Scenario Outline: Ingresar fecha en el campo
     Given "<actor>" abre el navegador
     When Ingresa la fecha <year>-<month>-<day> en el campo
